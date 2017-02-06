@@ -1,3 +1,4 @@
+setup.py
 bod_metadata_management/__init__.py
 bod_metadata_management.egg-info/PKG-INFO
 bod_metadata_management.egg-info/SOURCES.txt
