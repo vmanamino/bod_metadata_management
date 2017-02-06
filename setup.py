@@ -5,7 +5,7 @@ def readme():
         return f.read()
 
 setup(name='bod_metadata_management',
-      version='0.1',
+      version='0.2',
       description='modules, libraries, and scripts to manage metadata for Boston Open Data',
       long_description=readme(),
       url='https://github.com/vmanamino/bod_metadata_management',
@@ -16,6 +16,6 @@ setup(name='bod_metadata_management',
       install_requires=['slugify',],
       test_suite='nose.collector',
       tests_require=['nose', 'nose-cover3'],
-      scripts=['bin/*'],
+    #   scripts=['bin/*'],
       include_package_data=True,
       zip_safe=False)
